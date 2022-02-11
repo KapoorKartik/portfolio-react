@@ -1,9 +1,9 @@
 **Portfolio**
-Live Preview - [Click Here](https://gportfolio.vercel.app)
+Live Preview - [Click Here](https://kartik-kapoor-portfolio.vercel.app/)
 
 <br/>
 <div align="center">
-  <img alt="Demo" src="public/mockup.png" />
+  <img alt="Demo" src="https://i.ibb.co/HX2KLYL/portfolio.jpg" />
 </div>
 <br/>
 <br/>
