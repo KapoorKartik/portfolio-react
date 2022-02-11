@@ -1,38 +1,23 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_1.png",
-    title: "Spense",
-    description: "Codewell challenge, Spense is a landing page for writers.",
-    tech_stack: "Html, Css, Javascript",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
+    img: "https://camo.githubusercontent.com/a0aea20dbe1e2a9b5f4075e85969c9fe261d447802c0fb0dc870f4b797833dc3/68747470733a2f2f692e6962622e636f2f344e6b4d6a4e792f50726f64756374732d506167652e706e67",
+    title: "Tanishq Clone",
+    description: "Here in this project we have implemented all possible functionality which was use in orginal website. This is a colaborative project and we split up in two teams to complete the project.",
+    tech_stack: "Ejs, CSS, Tailwind CSS, Javascript, MongoDB Atlas, Express",
+    github_url: "https://github.com/KapoorKartik/tanishq_clone",
+    demo_url: "https://tanishq-clone.herokuapp.com/",
+    video_url :  "https://drive.google.com/file/d/1ewMk-JW6j5Xr7DtOxrgNJ32eLZrFv0rZ/view?usp=sharing",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_2.png",
-    title: "Fiber",
+    img: "https://github.com/KapoorKartik/Udemy-Clone/raw/main/Screenshot/Screenshot%20(557).png?raw=true",
+    title: "Udemy Clone",
     description:
-      "An online portfolio generator. Great to practice flex/grid layouts, absolute positioning and sliders.",
-    tech_stack: "Html, Css, Javascript",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
-  },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/portfolio.png",
-    title: "Portfolio",
-    description: "Ofcourse i made my own personal portfolio website.",
-    tech_stack: "Reactjs, Css",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link/",
-  },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_3.png",
-    title: "Ecommerce website",
-    description:
-      "Created simple ecommerce website using reactjs and react-use-cart plugin.",
-    tech_stack: "Reactjs, Css",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
+      "This is our first colaborative project. In this project we clone udemy.com. Here we first identify the main functionalities and then implemented all identified functions",
+    tech_stack: "HTML, CSS, Javascript",
+    github_url: "https://github.com/KapoorKartik/Udemy-Clone",
+    demo_url: "https://kapoorkartik.github.io/Udemy-Clone/home_page.html",
+    video_url :  "https://drive.google.com/file/d/1FsvuZMr3vCGwGwd__BzAV36dqlTSftp0/view?usp=sharing",
   },
 ];
 
@@ -56,12 +41,17 @@ export const stackList = [
     name: "ReactJS",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/bootstrap.svg",
-    name: "Bootstrap",
-  },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/sass.svg",
-    name: "Scss",
+    img: "https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/logo/logomark-colored.svg",
+    name: "Chakra UI",
+  },{
+    img:"https://media.istockphoto.com/vectors/nodejs-vector-logo-backend-programming-in-javascript-server-vector-id1195857274?k=20&m=1195857274&s=170667a&w=0&h=k8oHsv3ehrvhviozLlvhEjGHweiHU7hbBv7bHEkgUqc=",
+    name:"NodeJS"
+  },{
+    img:"https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+    name:"ExpressJS"
+  },{
+    img:"https://res.cloudinary.com/hevo/image/upload/f_auto,q_auto/v1626694700/hevo-blog/MongoDB-sm-logo-500x400-1-1.gif",
+    name:"MongoDB"
   },
   {
     img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
@@ -70,5 +60,5 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
     name: "Responsive",
-  },
+    }
 ];

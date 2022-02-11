@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaLinkedin,  FaGithub, FaTwitter } from "react-icons/fa";
 import styled from "styled-components";
 
 const Social = styled.div`
@@ -36,7 +36,7 @@ function FixSocialIcon() {
       <ul>
         <li className="item">
           <a
-            href="https://www.linkedin.com/in/your_username/"
+            href="https://www.linkedin.com/in/kartik-kapoor-j20/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -45,7 +45,7 @@ function FixSocialIcon() {
         </li>
         <li className="item">
           <a
-            href="https://github.com/your_username/"
+            href="https://github.com/KapoorKartik"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,11 +54,11 @@ function FixSocialIcon() {
         </li>
         <li className="item">
           <a
-            href="https://github.com/your_username/"
+            href="https://twitter.com/kapoor_kartik20"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram />
+            <FaTwitter />
           </a>
         </li>
       </ul>

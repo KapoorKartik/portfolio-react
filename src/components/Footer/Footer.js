@@ -23,7 +23,8 @@ function Footer() {
   return (
     <FooterSection>
       <div className="Container">
-        <span>
+        {/* need to be something */}
+        {/* <span>
           Coded with 💙 by{" "}
           <a
             href="https://github.com/gurupawar/"
@@ -32,7 +33,7 @@ function Footer() {
           >
             @gurupawar
           </a>{" "}
-        </span>
+        </span> */}
       </div>
     </FooterSection>
   );

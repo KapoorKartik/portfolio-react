@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import Dropdown from "../Dropdown/Dropdown";
-import Header from "../Header/Header";
+import Dropdown from "../Dropdown/Dropdown.jsx";
+import Header from "../Header/Header.jsx";
+import p from "../../Assets/p.png";
+
 import {
   HeroContainer,
   HeroWrapper,
@@ -9,6 +11,7 @@ import {
   Image,
   ScrollDown,
   ScrollLink,
+  HeroName,
 } from "./HeroElements";
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,18 +26,25 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hi, I'm YourName</h1>
-            <h5>Frontend Developer</h5>
+            <h1>
+              Hello, I'm <br /> <span>Kartik Kapoor</span>
+            </h1>
+            <h5>Full Stack Web Developer</h5>
             <p>
-              I design and code beautifully simple things, and I love what I do.
+              Ready for more challenging projects. I'm looking forward to
+              getting started with building my career in a company where I can
+              make positive impact with my skills and knowledge.
             </p>
           </HeroLeft>
+
           <HeroRight>
-            <Image
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
-              alt="man-svgrepo"
-            />
+            <Image src={p} alt="man-svgrepo" />
           </HeroRight>
+          <HeroName>
+            <h1>
+              Hello, I'm <br /> <span>Kartik Kapoor</span>
+            </h1>
+          </HeroName>
         </HeroWrapper>
         <ScrollDown to="projects">
           <ScrollLink>

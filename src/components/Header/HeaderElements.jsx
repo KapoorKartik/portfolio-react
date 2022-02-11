@@ -10,8 +10,14 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   z-index: 10;
+  // border: 1px solid red;
 `;
-
+export const Sticky = styled.div`
+  position: -webkit-sticky; /* Safari */
+  top: 20px;
+  position: sticky;
+  // border: 3px dashed blue;
+`;
 export const NavLink = styled(ScrollLink)`
   color: rgb(119, 119, 121);
   display: flex;

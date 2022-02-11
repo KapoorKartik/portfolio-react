@@ -2,14 +2,15 @@ import styled, { keyframes } from "styled-components";
 import { Link as LinkScroll } from "react-scroll";
 
 export const HeroContainer = styled.div`
-  padding-bottom: 2rem;
-  padding-top: 4rem;
+  // padding-bottom: 100rem;
+  // padding-top: 4rem;
   padding-right: 1rem;
   padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   flex-direction: column;
+  // border: 1px solid red;
 
   @media (min-width: 576px) {
     max-width: 540px;
@@ -28,12 +29,28 @@ export const HeroContainer = styled.div`
 export const HeroWrapper = styled.div`
   display: flex;
   flex-direction: row;
-
   @media screen and (max-width: 992px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 `;
-
+export const HeroName = styled.div`
+  h1 {
+    font-size: 2.8rem;
+    color: #f6f6f6;
+    opacity: 0.98;
+    font-weight: 400;
+  }
+  span {
+    color: #aefeff;
+  }
+  display: none;
+  @media screen and (max-width: 992px) {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    display: block;
+  }
+`;
 export const HeroLeft = styled.div`
   display: flex;
   flex-direction: column;
@@ -47,6 +64,7 @@ export const HeroLeft = styled.div`
     color: #f6f6f6;
     opacity: 0.98;
     font-weight: 400;
+    display: block;
   }
 
   h5 {
@@ -61,11 +79,17 @@ export const HeroLeft = styled.div`
     color: #f6f6f6;
     opacity: 0.85;
   }
-
+  // ------------------red color is only for testing looking for some good colors--------------------
+  span {
+    color: #aefeff;
+  }
   @media screen and (max-width: 992px) {
     text-align: center;
     align-items: center;
     margin-bottom: 2rem;
+    h1 {
+      display: none;
+    }
   }
 `;
 

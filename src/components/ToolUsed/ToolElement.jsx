@@ -1,23 +1,12 @@
 import styled from "styled-components";
 
-export const ContactWrapper = styled.div`
- margin-top: -2rem;
- // border : 1px solid red;
-`;
-
-export const Image = styled.img`
-  max-width: 220px;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-`;
-
 export const Technologies = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: -2rem;
+  margin-bottom: 3rem;
 `;
 
 export const Tech = styled.div`
@@ -30,8 +19,8 @@ export const Tech = styled.div`
 `;
 
 export const TechImg = styled.img`
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
 `;
 
 export const TechName = styled.div`

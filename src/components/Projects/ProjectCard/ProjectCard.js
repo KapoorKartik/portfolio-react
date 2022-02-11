@@ -19,12 +19,12 @@ function ProjectCard() {
             <h4>{list.title}</h4>
             <p>{list.description}</p>
             <Stack>
-              <span className="stackTitle">Tech Stack -</span>
+              <span className="stackTitle">Tech Stack </span>
               <span className="tags">{list.tech_stack}</span>
             </Stack>
             <BtnGroup>
               <a
-                className="btn btn2 SecondarBtn"
+                className="btn  SecondarBtn"
                 href={list.github_url}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -32,13 +32,22 @@ function ProjectCard() {
                 Github
               </a>
               <a
-                className="btn PrimaryBtn"
+                className="btn btn2 PrimaryBtn"
+                href={list.video_url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Video ➜
+              </a>
+              <a
+                className="btn  SecondarBtn"
                 href={list.demo_url}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Demo ➜
+                Live Site
               </a>
+            
             </BtnGroup>
           </CardRight>
         </Card>
