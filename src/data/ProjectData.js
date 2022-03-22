@@ -44,7 +44,7 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/logo/logomark-colored.svg",
     name: "Chakra UI",
   },{
-    img:"https://media.istockphoto.com/vectors/nodejs-vector-logo-backend-programming-in-javascript-server-vector-id1195857274?k=20&m=1195857274&s=170667a&w=0&h=k8oHsv3ehrvhviozLlvhEjGHweiHU7hbBv7bHEkgUqc=",
+    img:"https://w7.pngwing.com/pngs/1006/374/png-transparent-web-development-node-js-socket-io-javascript-network-socket-modernization-miscellaneous-logo-web-application.png",
     name:"NodeJS1"
   },{
     img:"https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
